@@ -14,3 +14,7 @@ fi
 export PATH=$PATH:~/programmer/apache-maven-3.3.9/bin/
 
 alias ec2-jenkins='ssh -i ~/.ssh/tkkey.pem ec2-user@ec2-54-77-203-191.eu-west-1.compute.amazonaws.com'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
