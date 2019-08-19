@@ -21,6 +21,7 @@ export EDITOR='vi'
 export VISUAL='vi'
 export PAGER='less'
 
+export JAVA_HOME='/Users/toreklevenberg/programmer/java/azul-java11/zulu11.29.11-ca-jdk11.0.2-macosx_x64'
 #
 # Language
 #
