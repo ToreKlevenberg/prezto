@@ -11,13 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-export PATH=$PATH:~/programmer/apache-maven-3.6.0/bin/
+export PATH=$PATH:~/programmer/apache-maven-3.6.0/bin/:
 
-alias ec2-perfdb='ssh ec2-user@34.240.124.213'
-alias ec2-perfmc='ssh ec2-user@34.250.246.50'
-alias ec2-perftc='ssh ec2-user@52.212.195.12'
-alias ec2-perfcl='ssh ec2-user@52.210.13.64'
-alias ec2-perfweb='ssh ec2-user@34.251.104.55'
+alias sublime='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
